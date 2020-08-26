@@ -1,0 +1,6 @@
+[core]
+    analytics = false
+    remote = remote_storage
+['remote "remote_storage"']
+    url = /home/ubuntu/remote_storage
+
