@@ -2,4 +2,5 @@
     analytics = false
     remote = remote_storage
 ['remote "remote_storage"']
-    url = ../home/ubuntu/dvc_remote
+    url = /home/ubuntu/remote_storage
+
