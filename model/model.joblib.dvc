@@ -1,0 +1,3 @@
+outs:
+- md5: b53351b4daa9b03be5cfa6dd72d4dd90
+  path: model.joblib
