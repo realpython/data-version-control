@@ -27,6 +27,7 @@ def preprocess(image):
 
 def load_data(data_path):
     df = pd.read_csv(data_path)
+    print(df.head())
     labels = load_labels(data_frame=df, column_name="label")
     raw_images = load_images(data_frame=df, column_name="filename")
     processed_images = [preprocess(image) for image in raw_images]
