@@ -1,0 +1,4 @@
+[core]
+    remote = remote_storage
+['remote "remote_storage"']
+    url = /Users/rohan.singh@ibm.com/Programming/learn/dvc
