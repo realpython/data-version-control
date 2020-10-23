@@ -25,6 +25,7 @@ def save_as_csv(filenames, labels, destination):
 
 
 def main(repo_path):
+    print("repo path: ",repo_path)
     data_path = repo_path / "data"
     train_path = data_path / "raw/train"
     test_path = data_path / "raw/val"
