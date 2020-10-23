@@ -1,4 +1,7 @@
 [core]
     remote = remote_storage
+[cache]
+    dir = C:/Users/mishra/Documents/HP/DVC/dvc_shared_cache
+    type = hardlink
 ['remote "remote_storage"']
     url = C:/Users/mishra/Documents/HP/DVC/dvc_remote
