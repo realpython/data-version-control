@@ -1,4 +1,5 @@
 [core]
     remote = remote_storage
+    analytics = false
 ['remote "remote_storage"']
     url = ../../dvc_remote
