@@ -1,0 +1,790 @@
+,filename,label
+0,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\ILSVRC2012_val_00008161.JPEG,golf ball
+1,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\ILSVRC2012_val_00009902.JPEG,golf ball
+2,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\ILSVRC2012_val_00011431.JPEG,golf ball
+3,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\ILSVRC2012_val_00011581.JPEG,golf ball
+4,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\ILSVRC2012_val_00014102.JPEG,golf ball
+5,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\ILSVRC2012_val_00020502.JPEG,golf ball
+6,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\ILSVRC2012_val_00020781.JPEG,golf ball
+7,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\ILSVRC2012_val_00022792.JPEG,golf ball
+8,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\ILSVRC2012_val_00025591.JPEG,golf ball
+9,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\ILSVRC2012_val_00036171.JPEG,golf ball
+10,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\ILSVRC2012_val_00038790.JPEG,golf ball
+11,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\ILSVRC2012_val_00041672.JPEG,golf ball
+12,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\ILSVRC2012_val_00042350.JPEG,golf ball
+13,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_1002.JPEG,golf ball
+14,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_10030.JPEG,golf ball
+15,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_10042.JPEG,golf ball
+16,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_10071.JPEG,golf ball
+17,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_101.JPEG,golf ball
+18,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_10141.JPEG,golf ball
+19,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_10401.JPEG,golf ball
+20,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_10410.JPEG,golf ball
+21,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_10442.JPEG,golf ball
+22,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_10520.JPEG,golf ball
+23,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_10550.JPEG,golf ball
+24,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_10560.JPEG,golf ball
+25,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_10581.JPEG,golf ball
+26,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_10592.JPEG,golf ball
+27,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_10622.JPEG,golf ball
+28,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_10632.JPEG,golf ball
+29,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_10671.JPEG,golf ball
+30,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_1072.JPEG,golf ball
+31,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_10721.JPEG,golf ball
+32,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_10750.JPEG,golf ball
+33,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_10760.JPEG,golf ball
+34,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_10762.JPEG,golf ball
+35,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_10782.JPEG,golf ball
+36,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_10862.JPEG,golf ball
+37,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_1091.JPEG,golf ball
+38,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_110.JPEG,golf ball
+39,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_11011.JPEG,golf ball
+40,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_11122.JPEG,golf ball
+41,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_11150.JPEG,golf ball
+42,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_11162.JPEG,golf ball
+43,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_11171.JPEG,golf ball
+44,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_1132.JPEG,golf ball
+45,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_11401.JPEG,golf ball
+46,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_11481.JPEG,golf ball
+47,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_1152.JPEG,golf ball
+48,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_11642.JPEG,golf ball
+49,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_11690.JPEG,golf ball
+50,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_11822.JPEG,golf ball
+51,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_12030.JPEG,golf ball
+52,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_12172.JPEG,golf ball
+53,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_12202.JPEG,golf ball
+54,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_12262.JPEG,golf ball
+55,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_12480.JPEG,golf ball
+56,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_12490.JPEG,golf ball
+57,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_12500.JPEG,golf ball
+58,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_1252.JPEG,golf ball
+59,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_12640.JPEG,golf ball
+60,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_12772.JPEG,golf ball
+61,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_1281.JPEG,golf ball
+62,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_12830.JPEG,golf ball
+63,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_12862.JPEG,golf ball
+64,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_12882.JPEG,golf ball
+65,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_1291.JPEG,golf ball
+66,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_1292.JPEG,golf ball
+67,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_12920.JPEG,golf ball
+68,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_13011.JPEG,golf ball
+69,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_1311.JPEG,golf ball
+70,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_13161.JPEG,golf ball
+71,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_13311.JPEG,golf ball
+72,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_13462.JPEG,golf ball
+73,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_13480.JPEG,golf ball
+74,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_13490.JPEG,golf ball
+75,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_13570.JPEG,golf ball
+76,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_13640.JPEG,golf ball
+77,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_13671.JPEG,golf ball
+78,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_13672.JPEG,golf ball
+79,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_13680.JPEG,golf ball
+80,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_13831.JPEG,golf ball
+81,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_1390.JPEG,golf ball
+82,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_13911.JPEG,golf ball
+83,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_13960.JPEG,golf ball
+84,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_1401.JPEG,golf ball
+85,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_14051.JPEG,golf ball
+86,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_14112.JPEG,golf ball
+87,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_14232.JPEG,golf ball
+88,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_14281.JPEG,golf ball
+89,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_14301.JPEG,golf ball
+90,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_14362.JPEG,golf ball
+91,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_14381.JPEG,golf ball
+92,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_1452.JPEG,golf ball
+93,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_14531.JPEG,golf ball
+94,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_1460.JPEG,golf ball
+95,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_14720.JPEG,golf ball
+96,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_14731.JPEG,golf ball
+97,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_1482.JPEG,golf ball
+98,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_15110.JPEG,golf ball
+99,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_15131.JPEG,golf ball
+100,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_15152.JPEG,golf ball
+101,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_15162.JPEG,golf ball
+102,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_1530.JPEG,golf ball
+103,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_15510.JPEG,golf ball
+104,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_15692.JPEG,golf ball
+105,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_15810.JPEG,golf ball
+106,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_15820.JPEG,golf ball
+107,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_15880.JPEG,golf ball
+108,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_15950.JPEG,golf ball
+109,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_16051.JPEG,golf ball
+110,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_16150.JPEG,golf ball
+111,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_16192.JPEG,golf ball
+112,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_16220.JPEG,golf ball
+113,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_16320.JPEG,golf ball
+114,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_16321.JPEG,golf ball
+115,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_16331.JPEG,golf ball
+116,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_16332.JPEG,golf ball
+117,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_16360.JPEG,golf ball
+118,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_16392.JPEG,golf ball
+119,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_16491.JPEG,golf ball
+120,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_17042.JPEG,golf ball
+121,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_172.JPEG,golf ball
+122,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_17221.JPEG,golf ball
+123,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_17311.JPEG,golf ball
+124,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_17492.JPEG,golf ball
+125,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_1750.JPEG,golf ball
+126,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_17511.JPEG,golf ball
+127,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_1781.JPEG,golf ball
+128,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_18292.JPEG,golf ball
+129,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_18412.JPEG,golf ball
+130,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_18491.JPEG,golf ball
+131,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_18531.JPEG,golf ball
+132,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_18631.JPEG,golf ball
+133,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_19001.JPEG,golf ball
+134,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_1922.JPEG,golf ball
+135,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_1962.JPEG,golf ball
+136,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_1971.JPEG,golf ball
+137,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_200.JPEG,golf ball
+138,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_20061.JPEG,golf ball
+139,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2031.JPEG,golf ball
+140,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_20352.JPEG,golf ball
+141,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_20400.JPEG,golf ball
+142,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2041.JPEG,golf ball
+143,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_20572.JPEG,golf ball
+144,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2070.JPEG,golf ball
+145,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2071.JPEG,golf ball
+146,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_210.JPEG,golf ball
+147,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2151.JPEG,golf ball
+148,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2251.JPEG,golf ball
+149,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2262.JPEG,golf ball
+150,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2270.JPEG,golf ball
+151,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_230.JPEG,golf ball
+152,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2312.JPEG,golf ball
+153,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2332.JPEG,golf ball
+154,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2360.JPEG,golf ball
+155,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2362.JPEG,golf ball
+156,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2412.JPEG,golf ball
+157,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2432.JPEG,golf ball
+158,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2441.JPEG,golf ball
+159,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2511.JPEG,golf ball
+160,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2530.JPEG,golf ball
+161,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_261.JPEG,golf ball
+162,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2611.JPEG,golf ball
+163,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2770.JPEG,golf ball
+164,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2822.JPEG,golf ball
+165,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2860.JPEG,golf ball
+166,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2881.JPEG,golf ball
+167,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_2951.JPEG,golf ball
+168,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3011.JPEG,golf ball
+169,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3030.JPEG,golf ball
+170,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3060.JPEG,golf ball
+171,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3090.JPEG,golf ball
+172,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3122.JPEG,golf ball
+173,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3132.JPEG,golf ball
+174,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3142.JPEG,golf ball
+175,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3171.JPEG,golf ball
+176,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3192.JPEG,golf ball
+177,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3222.JPEG,golf ball
+178,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3252.JPEG,golf ball
+179,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3260.JPEG,golf ball
+180,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3291.JPEG,golf ball
+181,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3301.JPEG,golf ball
+182,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3311.JPEG,golf ball
+183,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3321.JPEG,golf ball
+184,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3391.JPEG,golf ball
+185,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_340.JPEG,golf ball
+186,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3410.JPEG,golf ball
+187,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3421.JPEG,golf ball
+188,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3440.JPEG,golf ball
+189,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3462.JPEG,golf ball
+190,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3471.JPEG,golf ball
+191,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3530.JPEG,golf ball
+192,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3540.JPEG,golf ball
+193,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_360.JPEG,golf ball
+194,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3612.JPEG,golf ball
+195,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3651.JPEG,golf ball
+196,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3722.JPEG,golf ball
+197,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3761.JPEG,golf ball
+198,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3780.JPEG,golf ball
+199,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3800.JPEG,golf ball
+200,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3890.JPEG,golf ball
+201,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3892.JPEG,golf ball
+202,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3900.JPEG,golf ball
+203,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_392.JPEG,golf ball
+204,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3922.JPEG,golf ball
+205,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3970.JPEG,golf ball
+206,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3981.JPEG,golf ball
+207,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_3992.JPEG,golf ball
+208,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4042.JPEG,golf ball
+209,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4061.JPEG,golf ball
+210,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4062.JPEG,golf ball
+211,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4070.JPEG,golf ball
+212,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4082.JPEG,golf ball
+213,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4101.JPEG,golf ball
+214,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4131.JPEG,golf ball
+215,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4162.JPEG,golf ball
+216,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4172.JPEG,golf ball
+217,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4211.JPEG,golf ball
+218,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4220.JPEG,golf ball
+219,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4290.JPEG,golf ball
+220,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4291.JPEG,golf ball
+221,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4352.JPEG,golf ball
+222,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4371.JPEG,golf ball
+223,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4382.JPEG,golf ball
+224,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4390.JPEG,golf ball
+225,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_451.JPEG,golf ball
+226,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4512.JPEG,golf ball
+227,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4520.JPEG,golf ball
+228,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4561.JPEG,golf ball
+229,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_461.JPEG,golf ball
+230,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4622.JPEG,golf ball
+231,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4641.JPEG,golf ball
+232,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4650.JPEG,golf ball
+233,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4671.JPEG,golf ball
+234,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_471.JPEG,golf ball
+235,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4711.JPEG,golf ball
+236,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4731.JPEG,golf ball
+237,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_482.JPEG,golf ball
+238,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4832.JPEG,golf ball
+239,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4852.JPEG,golf ball
+240,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4872.JPEG,golf ball
+241,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_490.JPEG,golf ball
+242,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4901.JPEG,golf ball
+243,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_4930.JPEG,golf ball
+244,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_501.JPEG,golf ball
+245,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5031.JPEG,golf ball
+246,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5092.JPEG,golf ball
+247,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5131.JPEG,golf ball
+248,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_520.JPEG,golf ball
+249,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5222.JPEG,golf ball
+250,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5240.JPEG,golf ball
+251,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5270.JPEG,golf ball
+252,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5280.JPEG,golf ball
+253,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5300.JPEG,golf ball
+254,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_531.JPEG,golf ball
+255,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5310.JPEG,golf ball
+256,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5312.JPEG,golf ball
+257,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_532.JPEG,golf ball
+258,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5342.JPEG,golf ball
+259,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5382.JPEG,golf ball
+260,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5462.JPEG,golf ball
+261,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5492.JPEG,golf ball
+262,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_551.JPEG,golf ball
+263,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5582.JPEG,golf ball
+264,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5590.JPEG,golf ball
+265,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5592.JPEG,golf ball
+266,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5670.JPEG,golf ball
+267,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5712.JPEG,golf ball
+268,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5720.JPEG,golf ball
+269,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5790.JPEG,golf ball
+270,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5810.JPEG,golf ball
+271,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5812.JPEG,golf ball
+272,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5851.JPEG,golf ball
+273,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5861.JPEG,golf ball
+274,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5862.JPEG,golf ball
+275,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5901.JPEG,golf ball
+276,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5912.JPEG,golf ball
+277,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5932.JPEG,golf ball
+278,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5941.JPEG,golf ball
+279,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5971.JPEG,golf ball
+280,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5991.JPEG,golf ball
+281,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_5992.JPEG,golf ball
+282,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_602.JPEG,golf ball
+283,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6042.JPEG,golf ball
+284,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6052.JPEG,golf ball
+285,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6071.JPEG,golf ball
+286,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6080.JPEG,golf ball
+287,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6081.JPEG,golf ball
+288,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6091.JPEG,golf ball
+289,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6101.JPEG,golf ball
+290,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6162.JPEG,golf ball
+291,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6181.JPEG,golf ball
+292,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6201.JPEG,golf ball
+293,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_622.JPEG,golf ball
+294,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6242.JPEG,golf ball
+295,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6350.JPEG,golf ball
+296,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6360.JPEG,golf ball
+297,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6380.JPEG,golf ball
+298,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6421.JPEG,golf ball
+299,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6432.JPEG,golf ball
+300,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6441.JPEG,golf ball
+301,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6451.JPEG,golf ball
+302,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6551.JPEG,golf ball
+303,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6590.JPEG,golf ball
+304,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6621.JPEG,golf ball
+305,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6721.JPEG,golf ball
+306,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6752.JPEG,golf ball
+307,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6761.JPEG,golf ball
+308,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6881.JPEG,golf ball
+309,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_6882.JPEG,golf ball
+310,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_70.JPEG,golf ball
+311,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7001.JPEG,golf ball
+312,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7011.JPEG,golf ball
+313,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7090.JPEG,golf ball
+314,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7091.JPEG,golf ball
+315,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_71.JPEG,golf ball
+316,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_711.JPEG,golf ball
+317,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7152.JPEG,golf ball
+318,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7181.JPEG,golf ball
+319,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7212.JPEG,golf ball
+320,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7242.JPEG,golf ball
+321,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7251.JPEG,golf ball
+322,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7310.JPEG,golf ball
+323,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7372.JPEG,golf ball
+324,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7382.JPEG,golf ball
+325,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7442.JPEG,golf ball
+326,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7480.JPEG,golf ball
+327,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_752.JPEG,golf ball
+328,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7552.JPEG,golf ball
+329,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7580.JPEG,golf ball
+330,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7601.JPEG,golf ball
+331,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7630.JPEG,golf ball
+332,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7641.JPEG,golf ball
+333,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7650.JPEG,golf ball
+334,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7652.JPEG,golf ball
+335,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7670.JPEG,golf ball
+336,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7691.JPEG,golf ball
+337,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7711.JPEG,golf ball
+338,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7791.JPEG,golf ball
+339,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_790.JPEG,golf ball
+340,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7902.JPEG,golf ball
+341,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7930.JPEG,golf ball
+342,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7931.JPEG,golf ball
+343,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_7991.JPEG,golf ball
+344,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8010.JPEG,golf ball
+345,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8060.JPEG,golf ball
+346,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8091.JPEG,golf ball
+347,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8192.JPEG,golf ball
+348,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8242.JPEG,golf ball
+349,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_832.JPEG,golf ball
+350,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8332.JPEG,golf ball
+351,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8380.JPEG,golf ball
+352,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_850.JPEG,golf ball
+353,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8541.JPEG,golf ball
+354,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8550.JPEG,golf ball
+355,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8552.JPEG,golf ball
+356,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8610.JPEG,golf ball
+357,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8620.JPEG,golf ball
+358,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8641.JPEG,golf ball
+359,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8681.JPEG,golf ball
+360,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8712.JPEG,golf ball
+361,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8732.JPEG,golf ball
+362,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8790.JPEG,golf ball
+363,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_882.JPEG,golf ball
+364,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8820.JPEG,golf ball
+365,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8840.JPEG,golf ball
+366,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8842.JPEG,golf ball
+367,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8861.JPEG,golf ball
+368,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8971.JPEG,golf ball
+369,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_8980.JPEG,golf ball
+370,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9000.JPEG,golf ball
+371,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9090.JPEG,golf ball
+372,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9102.JPEG,golf ball
+373,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9120.JPEG,golf ball
+374,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9151.JPEG,golf ball
+375,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9171.JPEG,golf ball
+376,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9220.JPEG,golf ball
+377,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9270.JPEG,golf ball
+378,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9292.JPEG,golf ball
+379,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9300.JPEG,golf ball
+380,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9330.JPEG,golf ball
+381,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9340.JPEG,golf ball
+382,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9380.JPEG,golf ball
+383,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9381.JPEG,golf ball
+384,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9411.JPEG,golf ball
+385,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9442.JPEG,golf ball
+386,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9552.JPEG,golf ball
+387,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9572.JPEG,golf ball
+388,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9740.JPEG,golf ball
+389,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9762.JPEG,golf ball
+390,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9771.JPEG,golf ball
+391,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_980.JPEG,golf ball
+392,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9850.JPEG,golf ball
+393,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9880.JPEG,golf ball
+394,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9892.JPEG,golf ball
+395,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9900.JPEG,golf ball
+396,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_992.JPEG,golf ball
+397,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9921.JPEG,golf ball
+398,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03445777\n03445777_9971.JPEG,golf ball
+399,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\ILSVRC2012_val_00001440.JPEG,parachute
+400,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\ILSVRC2012_val_00002990.JPEG,parachute
+401,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\ILSVRC2012_val_00006561.JPEG,parachute
+402,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\ILSVRC2012_val_00009370.JPEG,parachute
+403,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\ILSVRC2012_val_00010460.JPEG,parachute
+404,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\ILSVRC2012_val_00014381.JPEG,parachute
+405,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\ILSVRC2012_val_00017020.JPEG,parachute
+406,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\ILSVRC2012_val_00024340.JPEG,parachute
+407,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\ILSVRC2012_val_00025121.JPEG,parachute
+408,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\ILSVRC2012_val_00032482.JPEG,parachute
+409,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\ILSVRC2012_val_00037770.JPEG,parachute
+410,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\ILSVRC2012_val_00038942.JPEG,parachute
+411,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\ILSVRC2012_val_00042262.JPEG,parachute
+412,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\ILSVRC2012_val_00044850.JPEG,parachute
+413,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_10050.JPEG,parachute
+414,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_10092.JPEG,parachute
+415,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_10210.JPEG,parachute
+416,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_10271.JPEG,parachute
+417,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_10341.JPEG,parachute
+418,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_10380.JPEG,parachute
+419,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_10402.JPEG,parachute
+420,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_10661.JPEG,parachute
+421,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_10680.JPEG,parachute
+422,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_10721.JPEG,parachute
+423,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_10892.JPEG,parachute
+424,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_10980.JPEG,parachute
+425,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_1100.JPEG,parachute
+426,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_11042.JPEG,parachute
+427,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_11081.JPEG,parachute
+428,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_11210.JPEG,parachute
+429,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_11222.JPEG,parachute
+430,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_11282.JPEG,parachute
+431,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_11450.JPEG,parachute
+432,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_11452.JPEG,parachute
+433,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_11491.JPEG,parachute
+434,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_11561.JPEG,parachute
+435,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_11580.JPEG,parachute
+436,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_1171.JPEG,parachute
+437,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_11730.JPEG,parachute
+438,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_11802.JPEG,parachute
+439,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_11901.JPEG,parachute
+440,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_11912.JPEG,parachute
+441,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_11931.JPEG,parachute
+442,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_12.JPEG,parachute
+443,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_12070.JPEG,parachute
+444,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_121.JPEG,parachute
+445,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_12212.JPEG,parachute
+446,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_1222.JPEG,parachute
+447,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_12301.JPEG,parachute
+448,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_12331.JPEG,parachute
+449,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_12400.JPEG,parachute
+450,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_12401.JPEG,parachute
+451,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_12491.JPEG,parachute
+452,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_12501.JPEG,parachute
+453,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_1251.JPEG,parachute
+454,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_12560.JPEG,parachute
+455,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_12641.JPEG,parachute
+456,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_12752.JPEG,parachute
+457,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_12801.JPEG,parachute
+458,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_12811.JPEG,parachute
+459,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_12831.JPEG,parachute
+460,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_12842.JPEG,parachute
+461,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_12900.JPEG,parachute
+462,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_1291.JPEG,parachute
+463,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_13072.JPEG,parachute
+464,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_13100.JPEG,parachute
+465,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_13242.JPEG,parachute
+466,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_13290.JPEG,parachute
+467,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_13321.JPEG,parachute
+468,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_13410.JPEG,parachute
+469,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_13600.JPEG,parachute
+470,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_13681.JPEG,parachute
+471,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_13790.JPEG,parachute
+472,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_14090.JPEG,parachute
+473,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_142.JPEG,parachute
+474,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_1421.JPEG,parachute
+475,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_1430.JPEG,parachute
+476,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_14472.JPEG,parachute
+477,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_14530.JPEG,parachute
+478,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_14901.JPEG,parachute
+479,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_15312.JPEG,parachute
+480,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_15382.JPEG,parachute
+481,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_15491.JPEG,parachute
+482,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_15840.JPEG,parachute
+483,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_16081.JPEG,parachute
+484,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_16112.JPEG,parachute
+485,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_16211.JPEG,parachute
+486,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_16542.JPEG,parachute
+487,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_16741.JPEG,parachute
+488,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_16912.JPEG,parachute
+489,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_16991.JPEG,parachute
+490,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_17031.JPEG,parachute
+491,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_171.JPEG,parachute
+492,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_17340.JPEG,parachute
+493,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_17380.JPEG,parachute
+494,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_17421.JPEG,parachute
+495,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_17542.JPEG,parachute
+496,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_17641.JPEG,parachute
+497,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_17690.JPEG,parachute
+498,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_17801.JPEG,parachute
+499,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_17851.JPEG,parachute
+500,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_17872.JPEG,parachute
+501,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_17970.JPEG,parachute
+502,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_18002.JPEG,parachute
+503,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_18031.JPEG,parachute
+504,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_18052.JPEG,parachute
+505,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_18181.JPEG,parachute
+506,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_18360.JPEG,parachute
+507,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_18382.JPEG,parachute
+508,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_18441.JPEG,parachute
+509,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_18560.JPEG,parachute
+510,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_18742.JPEG,parachute
+511,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_18921.JPEG,parachute
+512,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_19162.JPEG,parachute
+513,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_19211.JPEG,parachute
+514,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_19260.JPEG,parachute
+515,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_19451.JPEG,parachute
+516,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_19462.JPEG,parachute
+517,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_19471.JPEG,parachute
+518,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_19531.JPEG,parachute
+519,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_19570.JPEG,parachute
+520,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_19580.JPEG,parachute
+521,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_19702.JPEG,parachute
+522,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_19792.JPEG,parachute
+523,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_19830.JPEG,parachute
+524,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_19921.JPEG,parachute
+525,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_19960.JPEG,parachute
+526,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_20012.JPEG,parachute
+527,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_20151.JPEG,parachute
+528,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_20300.JPEG,parachute
+529,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_20352.JPEG,parachute
+530,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_20450.JPEG,parachute
+531,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_20572.JPEG,parachute
+532,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_21150.JPEG,parachute
+533,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_21201.JPEG,parachute
+534,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_2122.JPEG,parachute
+535,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_21432.JPEG,parachute
+536,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_21552.JPEG,parachute
+537,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_21651.JPEG,parachute
+538,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_21912.JPEG,parachute
+539,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_21932.JPEG,parachute
+540,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_22061.JPEG,parachute
+541,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_22211.JPEG,parachute
+542,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_22212.JPEG,parachute
+543,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_2222.JPEG,parachute
+544,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_22302.JPEG,parachute
+545,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_22330.JPEG,parachute
+546,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_22540.JPEG,parachute
+547,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_22972.JPEG,parachute
+548,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_23192.JPEG,parachute
+549,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_23350.JPEG,parachute
+550,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_23372.JPEG,parachute
+551,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_23421.JPEG,parachute
+552,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_23571.JPEG,parachute
+553,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_23680.JPEG,parachute
+554,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_23801.JPEG,parachute
+555,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_24470.JPEG,parachute
+556,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_25150.JPEG,parachute
+557,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_2520.JPEG,parachute
+558,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_25420.JPEG,parachute
+559,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_25460.JPEG,parachute
+560,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_25611.JPEG,parachute
+561,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_25810.JPEG,parachute
+562,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_26182.JPEG,parachute
+563,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_26651.JPEG,parachute
+564,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_26672.JPEG,parachute
+565,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_26931.JPEG,parachute
+566,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_27102.JPEG,parachute
+567,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_2740.JPEG,parachute
+568,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_2760.JPEG,parachute
+569,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_27671.JPEG,parachute
+570,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_2791.JPEG,parachute
+571,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_28011.JPEG,parachute
+572,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_28352.JPEG,parachute
+573,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_28482.JPEG,parachute
+574,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_28581.JPEG,parachute
+575,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_28610.JPEG,parachute
+576,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_29050.JPEG,parachute
+577,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_29090.JPEG,parachute
+578,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_29170.JPEG,parachute
+579,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_29191.JPEG,parachute
+580,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_29201.JPEG,parachute
+581,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_29390.JPEG,parachute
+582,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_29500.JPEG,parachute
+583,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_29512.JPEG,parachute
+584,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_29712.JPEG,parachute
+585,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_29762.JPEG,parachute
+586,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_29910.JPEG,parachute
+587,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_30032.JPEG,parachute
+588,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_30042.JPEG,parachute
+589,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_30270.JPEG,parachute
+590,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_30332.JPEG,parachute
+591,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_30382.JPEG,parachute
+592,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_30402.JPEG,parachute
+593,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_30412.JPEG,parachute
+594,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_30521.JPEG,parachute
+595,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_30680.JPEG,parachute
+596,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_30682.JPEG,parachute
+597,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_30691.JPEG,parachute
+598,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_30712.JPEG,parachute
+599,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_3072.JPEG,parachute
+600,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_30911.JPEG,parachute
+601,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_31010.JPEG,parachute
+602,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_31180.JPEG,parachute
+603,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_31301.JPEG,parachute
+604,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_31370.JPEG,parachute
+605,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_3142.JPEG,parachute
+606,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_31742.JPEG,parachute
+607,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_31790.JPEG,parachute
+608,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_31921.JPEG,parachute
+609,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_32001.JPEG,parachute
+610,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_32032.JPEG,parachute
+611,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_32042.JPEG,parachute
+612,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_32141.JPEG,parachute
+613,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_32350.JPEG,parachute
+614,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_32391.JPEG,parachute
+615,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_32520.JPEG,parachute
+616,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_32670.JPEG,parachute
+617,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_32682.JPEG,parachute
+618,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_32911.JPEG,parachute
+619,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_32970.JPEG,parachute
+620,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_33021.JPEG,parachute
+621,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_33070.JPEG,parachute
+622,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_33170.JPEG,parachute
+623,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_33182.JPEG,parachute
+624,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_33250.JPEG,parachute
+625,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_33471.JPEG,parachute
+626,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_33481.JPEG,parachute
+627,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_33801.JPEG,parachute
+628,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_33931.JPEG,parachute
+629,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_34031.JPEG,parachute
+630,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_34081.JPEG,parachute
+631,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_34162.JPEG,parachute
+632,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_34280.JPEG,parachute
+633,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_34320.JPEG,parachute
+634,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_34452.JPEG,parachute
+635,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_34632.JPEG,parachute
+636,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_3492.JPEG,parachute
+637,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_35020.JPEG,parachute
+638,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_35241.JPEG,parachute
+639,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_35621.JPEG,parachute
+640,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_35800.JPEG,parachute
+641,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_35890.JPEG,parachute
+642,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_35962.JPEG,parachute
+643,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_3632.JPEG,parachute
+644,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_36371.JPEG,parachute
+645,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_36390.JPEG,parachute
+646,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_3642.JPEG,parachute
+647,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_3651.JPEG,parachute
+648,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_36541.JPEG,parachute
+649,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_36631.JPEG,parachute
+650,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_36831.JPEG,parachute
+651,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_36971.JPEG,parachute
+652,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_3720.JPEG,parachute
+653,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_37270.JPEG,parachute
+654,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_37362.JPEG,parachute
+655,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_37561.JPEG,parachute
+656,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_37950.JPEG,parachute
+657,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_38102.JPEG,parachute
+658,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_38200.JPEG,parachute
+659,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_38391.JPEG,parachute
+660,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_38501.JPEG,parachute
+661,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_38560.JPEG,parachute
+662,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_39021.JPEG,parachute
+663,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_39031.JPEG,parachute
+664,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_3932.JPEG,parachute
+665,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_39402.JPEG,parachute
+666,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_39511.JPEG,parachute
+667,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_39552.JPEG,parachute
+668,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_400.JPEG,parachute
+669,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_4042.JPEG,parachute
+670,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_4052.JPEG,parachute
+671,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_40951.JPEG,parachute
+672,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_41091.JPEG,parachute
+673,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_41260.JPEG,parachute
+674,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_41391.JPEG,parachute
+675,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_42.JPEG,parachute
+676,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_42680.JPEG,parachute
+677,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_4311.JPEG,parachute
+678,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_43260.JPEG,parachute
+679,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_43782.JPEG,parachute
+680,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_43982.JPEG,parachute
+681,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_44112.JPEG,parachute
+682,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_44391.JPEG,parachute
+683,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_4512.JPEG,parachute
+684,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_4561.JPEG,parachute
+685,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_4580.JPEG,parachute
+686,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_46572.JPEG,parachute
+687,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_46621.JPEG,parachute
+688,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_4682.JPEG,parachute
+689,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_46870.JPEG,parachute
+690,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_4732.JPEG,parachute
+691,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_482.JPEG,parachute
+692,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_4842.JPEG,parachute
+693,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_48910.JPEG,parachute
+694,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_49081.JPEG,parachute
+695,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_49381.JPEG,parachute
+696,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_4952.JPEG,parachute
+697,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_50102.JPEG,parachute
+698,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_50392.JPEG,parachute
+699,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_50622.JPEG,parachute
+700,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_50880.JPEG,parachute
+701,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_510.JPEG,parachute
+702,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_5140.JPEG,parachute
+703,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_51522.JPEG,parachute
+704,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_51872.JPEG,parachute
+705,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_5281.JPEG,parachute
+706,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_5442.JPEG,parachute
+707,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_5501.JPEG,parachute
+708,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_55090.JPEG,parachute
+709,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_5551.JPEG,parachute
+710,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_5621.JPEG,parachute
+711,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_5662.JPEG,parachute
+712,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_5692.JPEG,parachute
+713,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_57010.JPEG,parachute
+714,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_5722.JPEG,parachute
+715,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_57570.JPEG,parachute
+716,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_5812.JPEG,parachute
+717,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_5820.JPEG,parachute
+718,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_58270.JPEG,parachute
+719,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_58392.JPEG,parachute
+720,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_59412.JPEG,parachute
+721,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_59442.JPEG,parachute
+722,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_61350.JPEG,parachute
+723,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_61581.JPEG,parachute
+724,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_621.JPEG,parachute
+725,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_6230.JPEG,parachute
+726,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_6250.JPEG,parachute
+727,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_6331.JPEG,parachute
+728,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_6402.JPEG,parachute
+729,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_64711.JPEG,parachute
+730,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_6491.JPEG,parachute
+731,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_6541.JPEG,parachute
+732,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_65922.JPEG,parachute
+733,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_66102.JPEG,parachute
+734,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_66361.JPEG,parachute
+735,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_66552.JPEG,parachute
+736,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_6662.JPEG,parachute
+737,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_66961.JPEG,parachute
+738,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_67221.JPEG,parachute
+739,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_67480.JPEG,parachute
+740,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_68660.JPEG,parachute
+741,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_6912.JPEG,parachute
+742,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_69371.JPEG,parachute
+743,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_7011.JPEG,parachute
+744,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_7061.JPEG,parachute
+745,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_70632.JPEG,parachute
+746,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_7130.JPEG,parachute
+747,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_7210.JPEG,parachute
+748,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_7231.JPEG,parachute
+749,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_72591.JPEG,parachute
+750,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_72911.JPEG,parachute
+751,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_72982.JPEG,parachute
+752,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_7311.JPEG,parachute
+753,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_7331.JPEG,parachute
+754,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_73320.JPEG,parachute
+755,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_760.JPEG,parachute
+756,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_7610.JPEG,parachute
+757,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_76121.JPEG,parachute
+758,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_76331.JPEG,parachute
+759,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_76721.JPEG,parachute
+760,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_7831.JPEG,parachute
+761,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_7921.JPEG,parachute
+762,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_7960.JPEG,parachute
+763,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_7982.JPEG,parachute
+764,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_80.JPEG,parachute
+765,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_8001.JPEG,parachute
+766,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_8080.JPEG,parachute
+767,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_8100.JPEG,parachute
+768,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_8112.JPEG,parachute
+769,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_8160.JPEG,parachute
+770,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_8381.JPEG,parachute
+771,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_8391.JPEG,parachute
+772,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_850.JPEG,parachute
+773,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_8502.JPEG,parachute
+774,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_880.JPEG,parachute
+775,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_8882.JPEG,parachute
+776,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_8982.JPEG,parachute
+777,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_9082.JPEG,parachute
+778,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_912.JPEG,parachute
+779,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_9301.JPEG,parachute
+780,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_9371.JPEG,parachute
+781,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_9552.JPEG,parachute
+782,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_9640.JPEG,parachute
+783,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_9650.JPEG,parachute
+784,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_9671.JPEG,parachute
+785,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_9770.JPEG,parachute
+786,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_9771.JPEG,parachute
+787,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_9812.JPEG,parachute
+788,C:\Work\97_DVC_Tutorial\dvc-version-control\data\raw\val\n03888257\n03888257_9932.JPEG,parachute
