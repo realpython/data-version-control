@@ -24,9 +24,9 @@ stages:
       md5: 6651c89440452fa40199e428156de36f
       size: 197170
     - path: src/train.py
-      md5: 8afd0b487365179d1b8bcca7e57a64cd
-      size: 1324
+      md5: 07b84b8c1b18f68b3ccc18a3d6034221
+      size: 1464
     outs:
     - path: model/model.joblib
-      md5: 0011edf50dd4713f55b8b84185f5f57d
-      size: 241076
+      md5: eb589edb6d9ce5f62c829d90a5eaedc6
+      size: 1661141
