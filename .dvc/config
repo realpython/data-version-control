@@ -1,0 +1,5 @@
+[core]
+    analytics = false
+    remote = remote_storage
+['remote "remote_storage"']
+    url = C:\Users\PC\Desktop\ML\Articles\model_versioning_draft_dev\dvc_remote
