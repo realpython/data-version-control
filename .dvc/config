@@ -1,0 +1,6 @@
+[core]
+    remote = remotestorage
+[cache]
+    dir = /mnt/nfs/cache
+['remote "remotestorage"']
+    url = /mnt/nfs/data
