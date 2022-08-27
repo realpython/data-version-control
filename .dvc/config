@@ -1,5 +1,8 @@
 [core]
     analytics = false
     remote = remote_storage
+[cache]
+    dir = /Users/arvid/Documents/data/shared_cache
+    type = symlink
 ['remote "remote_storage"']
     url = /Users/arvid/Documents/data/dvc_remote
