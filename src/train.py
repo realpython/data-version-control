@@ -1,11 +1,11 @@
 from joblib import dump
+import json
 from pathlib import Path
-
+import time
 import numpy as np
 import pandas as pd
 from skimage.io import imread_collection
 from skimage.transform import resize
-from sklearn.linear_model import SGDClassifier
 import numpy as np
 import torch
 import torch.nn as nn
@@ -15,6 +15,7 @@ from torch.utils.data.sampler import SubsetRandomSampler
 
 # Device configuration
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
 
 class AlexNet(nn.Module):
     def __init__(self, num_classes=10):
@@ -91,8 +92,88 @@ def load_data(data_path):
     data = np.concatenate(processed_images, axis=0)
     return data, labels
 
+def get_train_valid_loader(data_dir_train,
+                           batch_size,
+                           augment,
+                           random_seed,
+                           valid_size=0.5,
+                           shuffle=True):
+    normalize = transforms.Normalize(
+        mean=[0.4914, 0.4822, 0.4465],
+        std=[0.2023, 0.1994, 0.2010],
+    )
+    
+    # define transforms
+    if augment:
+        train_transform = transforms.Compose([
+            transforms.RandomCrop(32, padding=4),
+            transforms.RandomHorizontalFlip(),
+            transforms.ToTensor(),
+            normalize,
+        ])
+    else:
+        train_transform = transforms.Compose([
+            transforms.Resize((227,227)),
+            transforms.ToTensor(),
+            normalize,
+        ])
+
+
+    # load the dataset
+    train_dataset = datasets.CIFAR10(
+        root=data_dir_train, train=True,
+        download=True, transform=train_transform,
+    )
+
+    num_train = len(train_dataset)
+    indices = list(range(num_train))
+    split = int(np.floor(valid_size * num_train))
+
+    if shuffle:
+        np.random.seed(random_seed)
+        np.random.shuffle(indices)
+
+    train_idx = indices[split:]
+    train_sampler = SubsetRandomSampler(train_idx)
+
+    train_loader = torch.utils.data.DataLoader(
+        train_dataset, batch_size=batch_size, sampler=train_sampler)
+
+
+    return train_loader
+
+
+def get_test_loader(data_dir_test,
+                    batch_size,
+                    shuffle=True):
+    normalize = transforms.Normalize(
+        mean=[0.485, 0.456, 0.406],
+        std=[0.229, 0.224, 0.225],
+    )
+
+    # define transform
+    transform = transforms.Compose([
+        transforms.Resize((227,227)),
+        transforms.ToTensor(),
+        normalize,
+    ])
+
+    dataset = datasets.CIFAR10(
+        root=data_dir_test, train=False,
+        download=True, transform=transform,
+    )
+
+    data_loader = torch.utils.data.DataLoader(
+        dataset, batch_size=batch_size, shuffle=shuffle
+    )
+
+    return data_loader
+
 
 def main(repo_path):
+    data_path = repo_path / "data"
+    data_dir_train = data_path / "raw/train"
+    data_dir_test = data_path / "raw/test"
     num_classes = 10
     num_epochs = 20
     batch_size = 64
@@ -102,26 +183,63 @@ def main(repo_path):
     # Loss and optimizer
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate, weight_decay = 0.005, momentum = 0.9)  
+    
+    train_loader = get_train_valid_loader(data_dir_train = './data/raw/train',                                      batch_size = 64,
+                        augment = False,                             		     random_seed = 1)
 
+    test_loader = get_test_loader(data_dir_test = './data/raw/test',
+                                batch_size = 64)
     # Train the model
-    total_step = len(train_loader)
-    total_step = len(train_loader)
-
+    total_step = len(train_dataset)
+    epoch_time = []
+    img_time_pure = []
     for epoch in range(num_epochs):
+        train_start = time.time()
         for i, (images, labels) in enumerate(train_loader):  
             # Move tensors to the configured device
             images = images.to(device)
             labels = labels.to(device)
-            
+            train_start_pure = time.time()
             # Forward pass
             outputs = model(images)
             loss = criterion(outputs, labels)
-            
             # Backward and optimize
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
-
+            img_time_pure.append(train_start_pure - time.time())
+        epoch_time.append(train_start - time.time())
+    epoch_time_avg = epoch_time.mean()
+    img_time_pure_avg = img_time_pure.mean()
+    epoch_time_pure_avg = img_time_pure_avg*batch_size
+    train_time = epoch_time.sum()
+    train_time_pure = img_time_pure.sum()
+    metrics = {
+        {
+            "name": "epoch_time_avg",
+            "type": "float",
+            "value": epoch_time_avg
+        },
+        {
+            "name": "epoch_time_pure_avg",
+            "type": "float",
+            "value": epoch_time_pure_avg
+        },
+        {
+            "name": "train_time",
+            "type": "float",
+            "value": train_time
+        },
+        {
+            "name": "train_time_pure",
+            "type": "float",
+            "value": train_time_pure
+        }
+    
+        }
+    with open('metrics.json', 'w') as f:
+        json.dump(metrics, f, indent=4)
+    
     trained_model = model
     dump(trained_model, repo_path / "model/model.joblib")
 
