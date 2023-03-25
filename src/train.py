@@ -175,7 +175,7 @@ def main(repo_path):
     data_dir_train = data_path / "raw/train"
     data_dir_test = data_path / "raw/test"
     num_classes = 10
-    num_epochs = 20
+    num_epochs = 5
     batch_size = 64
     learning_rate = 0.005
     model = AlexNet(num_classes).to(device)
@@ -242,7 +242,6 @@ def main(repo_path):
     
     trained_model = model
     dump(trained_model, repo_path / "model/model.joblib")
-
      
 if __name__ == "__main__":
     repo_path = Path(__file__).parent.parent
