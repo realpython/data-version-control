@@ -96,7 +96,7 @@ def get_test_loader(data_dir_test,
 train_loader, valid_loader = get_train_valid_loader(data_dir_train = './data/raw/train',                                      batch_size = 64,
                        augment = False,                             		     random_seed = 1)
 
-test_loader = get_test_loader(data_dir = './data/raw/test',
+test_loader = get_test_loader(data_dir_test = './data/raw/test',
                               batch_size = 64)
 
 
@@ -111,7 +111,7 @@ def main(repo_path):
     train_loader = get_train_valid_loader(data_dir_train = './data/raw/train',                                      batch_size = 64,
                         augment = False,                             		     random_seed = 1)
 
-    test_loader = get_test_loader(data_dir = './data/raw/test',
+    test_loader = get_test_loader(data_dir_test = './data/raw/test',
                                 batch_size = 64)
 
 
