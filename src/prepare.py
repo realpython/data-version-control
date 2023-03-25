@@ -49,11 +49,6 @@ def get_train_valid_loader(data_dir_train,
         download=True, transform=train_transform,
     )
 
-    valid_dataset = datasets.CIFAR10(
-        root=data_dir_val, train=True,
-        download=True, transform=valid_transform,
-    )
-
     num_train = len(train_dataset)
     indices = list(range(num_train))
     split = int(np.floor(valid_size * num_train))
@@ -64,16 +59,11 @@ def get_train_valid_loader(data_dir_train,
 
     train_idx, valid_idx = indices[split:], indices[:split]
     train_sampler = SubsetRandomSampler(train_idx)
-    valid_sampler = SubsetRandomSampler(valid_idx)
 
     train_loader = torch.utils.data.DataLoader(
         train_dataset, batch_size=batch_size, sampler=train_sampler)
  
-    valid_loader = torch.utils.data.DataLoader(
-        valid_dataset, batch_size=batch_size, sampler=valid_sampler)
-
-    return (train_loader, valid_loader)
-
+    return train_loader
 
 def get_test_loader(data_dir_test,
                     batch_size,
@@ -116,10 +106,9 @@ def main(repo_path):
     data_path = repo_path / "data"
     data_dir_train = data_path / "raw/train"
     data_dir_test = data_path / "raw/test"
-    data_dir_val = data_path / "raw/val"
     train_path = data_path / "raw/train"
     test_path = data_path / "raw/val"
-    train_loader, valid_loader = get_train_valid_loader(data_dir_train = './data/raw/train',                                      batch_size = 64,
+    train_loader = get_train_valid_loader(data_dir_train = './data/raw/train',                                      batch_size = 64,
                         augment = False,                             		     random_seed = 1)
 
     test_loader = get_test_loader(data_dir = './data/raw/test',
