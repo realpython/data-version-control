@@ -15,7 +15,7 @@ def get_train_valid_loader(data_dir_train,
                            batch_size,
                            augment,
                            random_seed,
-                           valid_size=0.1,
+                           valid_size=0.5,
                            shuffle=True):
     normalize = transforms.Normalize(
         mean=[0.4914, 0.4822, 0.4465],
@@ -23,11 +23,6 @@ def get_train_valid_loader(data_dir_train,
     )
     
     # define transforms
-    valid_transform = transforms.Compose([
-            transforms.Resize((227,227)),
-            transforms.ToTensor(),
-            normalize,
-    ])
     if augment:
         train_transform = transforms.Compose([
             transforms.RandomCrop(32, padding=4),
@@ -57,13 +52,15 @@ def get_train_valid_loader(data_dir_train,
         np.random.seed(random_seed)
         np.random.shuffle(indices)
 
-    train_idx, valid_idx = indices[split:], indices[:split]
+    train_idx = indices[split:]
     train_sampler = SubsetRandomSampler(train_idx)
 
     train_loader = torch.utils.data.DataLoader(
         train_dataset, batch_size=batch_size, sampler=train_sampler)
- 
+
+
     return train_loader
+
 
 def get_test_loader(data_dir_test,
                     batch_size,
@@ -92,22 +89,11 @@ def get_test_loader(data_dir_test,
     return data_loader
 
 
-# CIFAR10 dataset 
-train_loaderr = get_train_valid_loader(data_dir_train = './data/raw/train',                                      batch_size = 64,
-                       augment = False,                             		     random_seed = 1)
-
-test_loader = get_test_loader(data_dir_test = './data/raw/test',
-                              batch_size = 64)
-
-
-
-
 def main(repo_path):
     data_path = repo_path / "data"
     data_dir_train = data_path / "raw/train"
     data_dir_test = data_path / "raw/test"
-    train_path = data_path / "raw/train"
-    test_path = data_path / "raw/val"
+    
     train_loader = get_train_valid_loader(data_dir_train = './data/raw/train',                                      batch_size = 64,
                         augment = False,                             		     random_seed = 1)
 
