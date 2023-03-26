@@ -97,7 +97,7 @@ def main(repo_path):
         json.dump(metrics, f, indent=4)
     
     trained_model = model
-    dump(trained_model, repo_path / "model/model.joblib")
+    dump(trained_model, repo_path / "model/model.pkl")
      
 if __name__ == "__main__":
     repo_path = Path(__file__).parent.parent
