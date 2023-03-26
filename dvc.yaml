@@ -1,0 +1,26 @@
+stages:
+  train:
+    cmd: python src/train.py
+    deps:
+    - data/hymenoptera_data/train
+    - src/train.py
+    params:
+    - base
+    - train
+    outs:
+    - model/model.pkl
+    metrics:
+    - metrics.json:
+        cache: false
+  evaluate:
+    cmd: python src/evaluate.py
+    deps:
+    - data/hymenoptera_data/val
+    - model/model.pkl
+    - src/evaluate.py
+    params:
+    - base
+    - evaluate
+    metrics:
+    - metrics_eval.json:
+        cache: false

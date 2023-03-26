@@ -1,0 +1,52 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python src/train.py
+    deps:
+    - path: data/hymenoptera_data/train
+      md5: 3cbe2cabaea715756ad7fe9da5109588.dir
+      size: 27229047
+      nfiles: 245
+    - path: src/train.py
+      md5: 3836e54d48885e02c9ba0534b666076f
+      size: 3584
+    params:
+      params.yaml:
+        base:
+          random_seed: 42
+        train:
+          device: cuda
+          num_epochs: 20
+          batch_size: 64
+          learning_rate: 0.001
+    outs:
+    - path: metrics.json
+      md5: c0e62ee16b41bbff17ea06a2435e3a6e
+      size: 175
+    - path: model/model.pkl
+      md5: 66b354db45805ae05705f3837bc6057d
+      size: 44796604
+  evaluate:
+    cmd: python src/evaluate.py
+    deps:
+    - path: data/hymenoptera_data/val
+      md5: 04bf79378292fdf4f36e721eb0134199.dir
+      size: 20156877
+      nfiles: 153
+    - path: model/model.pkl
+      md5: 66b354db45805ae05705f3837bc6057d
+      size: 44796604
+    - path: src/evaluate.py
+      md5: 81107e262eac59345e3175d062187cf8
+      size: 2367
+    params:
+      params.yaml:
+        base:
+          random_seed: 42
+        evaluate:
+          device: cuda
+          batch_size: 64
+    outs:
+    - path: metrics_eval.json
+      md5: beb5c57909c1f6a3c434a79ee49940b3
+      size: 123
