@@ -82,7 +82,7 @@ def main(repo_path):
     img_time_pure_avg = np.mean(img_time_pure)
     epoch_time_pure_avg = np.mean(epoch_time_pure)
     train_time = np.sum(epoch_time)
-    train_time_pure = np.sum(img_time_pure)
+    train_time_pure = np.sum(epoch_time_pure)
     metrics = {
         
             "epoch_time_avg": epoch_time_avg,
