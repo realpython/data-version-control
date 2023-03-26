@@ -21,6 +21,18 @@ def main(repo_path):
     data_path = repo_path / "data"
     data_dir_test = data_path / "hymenoptera_data/val"
     model = load(repo_path / "model/model.joblib")
+       #loading the dataset
+    transform = transforms.Compose(transforms.Resize(256),
+                                transforms.CenterCrop(224),
+                                transforms.ToTensor(),
+                                transforms.Normalize(mean=[0.485, 0.456, 0.406,
+                                 std=0.229, 0.224, 0.225)])
+
+    #loading the dataset
+    dataset = torchvision.datasets.ImageFolder(root=data_dir_test, transform=transform)
+
+    #loading the data into dataloader
+    test_loader = torch.utils.data.DataLoader(dataset, batchsize=batch_size, shuffle=True, numworkers=1)
     
     with torch.no_grad():
         correct = 0
