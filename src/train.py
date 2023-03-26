@@ -68,20 +68,6 @@ class AlexNet(nn.Module):
         out = self.fc2(out)
         return out
 
-
-#loading the dataset
-transform = transforms.Compose(transforms.Resize(256),
-                                transforms.CenterCrop(224),
-                                transforms.ToTensor(),
-                                transforms.Normalize(mean=[0.485, 0.456, 0.406,
-                                 std=0.229, 0.224, 0.225)])
-
-#loading the dataset
-dataset = torchvision.datasets.ImageFolder(root=data_dir_train, transform=transform)
-
-#loading the data into dataloader
-train_loader = torch.utils.data.DataLoader(dataset, batchsize=batch_size, shuffle=True, numworkers=1)
-
 def main(repo_path):
     data_path = repo_path / "data"
     data_dir_train = data_path / "hymenoptera_data/train"
@@ -95,11 +81,19 @@ def main(repo_path):
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate, weight_decay = 0.005, momentum = 0.9)  
     
-    train_loader = get_train_valid_loader(data_dir_train = './data/raw/train',                                      batch_size = 64,
-                        augment = False,                             		     random_seed = 1)
+    #loading the dataset
+    transform = transforms.Compose(transforms.Resize(256),
+                                transforms.CenterCrop(224),
+                                transforms.ToTensor(),
+                                transforms.Normalize(mean=[0.485, 0.456, 0.406,
+                                 std=0.229, 0.224, 0.225)])
 
-    test_loader = get_test_loader(data_dir_test = './data/raw/test',
-                                batch_size = 64)
+    #loading the dataset
+    dataset = torchvision.datasets.ImageFolder(root=data_dir_train, transform=transform)
+
+    #loading the data into dataloader
+    train_loader = torch.utils.data.DataLoader(dataset, batchsize=batch_size, shuffle=True, numworkers=1)
+
     # Train the model
     total_step = len(train_dataset)
     epoch_time = []
