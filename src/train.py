@@ -15,6 +15,7 @@ from torchvision import datasets
 from torch.utils.data.sampler import SubsetRandomSampler
 # Device configuration
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = 'cpu'
 
 def main(repo_path):
     data_path = repo_path / "data"
@@ -42,8 +43,7 @@ def main(repo_path):
     total_step = len(train_dataset)
     epoch_time = []
     epoch_time_pure = []
-    img_time_pure = []
-    
+        
     model_ft = torchvision.models.resnet18(pretrained=True)
     num_ftrs = model_ft.fc.in_features
     # Here the size of each output sample is set to 2.
@@ -61,7 +61,7 @@ def main(repo_path):
     for epoch in range(num_epochs):
         train_start = time.time()
         for images, labels in train_loader:
-              
+            img_time_pure = []  
             # Move tensors to the configured device
             images = images.to(device)
             labels = labels.to(device)
@@ -79,7 +79,6 @@ def main(repo_path):
         print ('Epoch [{}/{}], Loss: {:.4f}' 
                    .format(epoch+1, num_epochs, loss.item()))
     epoch_time_avg = np.mean(epoch_time)
-    img_time_pure_avg = np.mean(img_time_pure)
     epoch_time_pure_avg = np.mean(epoch_time_pure)
     train_time = np.sum(epoch_time)
     train_time_pure = np.sum(epoch_time_pure)
