@@ -1,11 +1,11 @@
 from joblib import load
 import json
+import time
 from pathlib import Path
 import numpy as np
 import pandas as pd
 from skimage.io import imread_collection
 from skimage.transform import resize
-from sklearn.linear_model import SGDClassifier
 import numpy as np
 import torch
 import torch.nn as nn
@@ -15,6 +15,7 @@ from torchvision import transforms
 from torch.utils.data.sampler import SubsetRandomSampler
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = 'cpu'
 
 def main(repo_path):
     batch_size = 64
@@ -33,22 +34,29 @@ def main(repo_path):
 
     #loading the data into dataloader
     test_loader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=True)
-    
+    eval_time = []
+    eval_time_pure = []
     with torch.no_grad():
         correct = 0
         total = 0
         for images, labels in test_loader:
+            val_start = time.time()
             images = images.to(device)
             labels = labels.to(device)
+            val_start_pure = time.time()
             outputs = model(images)
             _, predicted = torch.max(outputs.data, 1)
             total += labels.size(0)
             correct += (predicted == labels).sum().item()
+            eval_time_pure.append(time.time()-val_start_pure)
+            eval_time.append(time.time()-val_start)
             del images, labels, outputs
     accuracy = correct/total
-    metrics = {"accuracy": accuracy}
-    with open('metrics_acc.json', 'w') as f:
-        json.dump(metrics, f, indent=5)
+    eval_time_avg = np.mean(eval_time)
+    eval_time_pure_avg = np.mean(eval_time_pure)
+    metrics = {"accuracy": accuracy, "eval_time_avg": eval_time_avg, "eval_time__pure_avg": eval_time_pure_avg}
+    with open('metrics_eval.json', 'w') as f:
+        json.dump(metrics, f, indent=3)
 
 
 if __name__ == "__main__":
