@@ -72,7 +72,7 @@ def main(repo_path):
     data_path = repo_path / "data"
     data_dir_train = data_path / "hymenoptera_data/train"
     num_classes = 2
-    num_epochs = 10
+    num_epochs = 2
     batch_size = 64
     learning_rate = 0.005
     model = AlexNet(num_classes).to(device)
@@ -114,6 +114,8 @@ def main(repo_path):
             optimizer.step()
             img_time_pure.append(train_start_pure - time.time())
         epoch_time.append(train_start - time.time())
+        print ('Epoch [{}/{}], Step [{}/{}], Loss: {:.4f}' 
+                   .format(epoch+1, num_epochs, i+1, total_step, loss.item()))
     epoch_time_avg = epoch_time.mean()
     img_time_pure_avg = img_time_pure.mean()
     epoch_time_pure_avg = img_time_pure_avg*batch_size
