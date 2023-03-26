@@ -15,7 +15,7 @@ from torchvision import datasets
 from torch.utils.data.sampler import SubsetRandomSampler
 # Device configuration
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-device = 'cpu'
+device = 'cuda'
 
 def main(repo_path):
     data_path = repo_path / "data"
@@ -61,7 +61,7 @@ def main(repo_path):
     for epoch in range(num_epochs):
         train_start = time.time()
         for images, labels in train_loader:
-            img_time_pure = []  
+        
             # Move tensors to the configured device
             images = images.to(device)
             labels = labels.to(device)
@@ -73,9 +73,8 @@ def main(repo_path):
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
-            img_time_pure.append(time.time() - train_start_pure)
+            epoch_time_pure.append(time.time() - train_start_pure)
         epoch_time.append(time.time() - train_start)
-        epoch_time_pure.append(np.sum(img_time_pure))
         print ('Epoch [{}/{}], Loss: {:.4f}' 
                    .format(epoch+1, num_epochs, loss.item()))
     epoch_time_avg = np.mean(epoch_time)

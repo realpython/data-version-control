@@ -15,14 +15,14 @@ from torchvision import transforms
 from torch.utils.data.sampler import SubsetRandomSampler
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-device = 'cpu'
+device = 'cuda'
 
 def main(repo_path):
     batch_size = 64
     data_path = repo_path / "data"
     data_dir_test = data_path / "hymenoptera_data/val"
     model = load(repo_path / "model/model.pkl")
-       #loading the dataset
+           #loading the dataset
     transform = transforms.Compose([transforms.Resize(256),
                                 transforms.CenterCrop(224),
                                 transforms.ToTensor(),
@@ -46,15 +46,15 @@ def main(repo_path):
             val_start_pure = time.time()
             outputs = model(images)
             _, predicted = torch.max(outputs.data, 1)
+            eval_time_pure.append(time.time()-val_start_pure)
             total += labels.size(0)
             correct += (predicted == labels).sum().item()
-            eval_time_pure.append(time.time()-val_start_pure)
             eval_time.append(time.time()-val_start)
             del images, labels, outputs
     accuracy = correct/total
     eval_time_avg = np.mean(eval_time)
     eval_time_pure_avg = np.mean(eval_time_pure)
-    metrics = {"accuracy": accuracy, "eval_time_avg": eval_time_avg, "eval_time__pure_avg": eval_time_pure_avg}
+    metrics = {"accuracy": accuracy, "eval_time_avg": eval_time_avg, "eval_time_pure_avg": eval_time_pure_avg}
     with open('metrics_eval.json', 'w') as f:
         json.dump(metrics, f, indent=3)
 
