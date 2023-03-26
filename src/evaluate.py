@@ -20,7 +20,7 @@ def main(repo_path):
     batch_size = 64
     data_path = repo_path / "data"
     data_dir_test = data_path / "hymenoptera_data/val"
-    model = load(repo_path / "model/model.joblib")
+    model = load(repo_path / "model/model.pkl")
        #loading the dataset
     transform = transforms.Compose([transforms.Resize(256),
                                 transforms.CenterCrop(224),
