@@ -20,7 +20,7 @@ def main(repo_path):
     data_path = repo_path / "data"
     data_dir_train = data_path / "hymenoptera_data/train"
     num_classes = 2
-    num_epochs = 15
+    num_epochs = 20
     batch_size = 64
     learning_rate = 0.001
 
@@ -41,6 +41,7 @@ def main(repo_path):
     # Train the model
     total_step = len(train_dataset)
     epoch_time = []
+    epoch_time_pure = []
     img_time_pure = []
     
     model_ft = torchvision.models.resnet18(pretrained=True)
@@ -74,11 +75,12 @@ def main(repo_path):
             optimizer.step()
             img_time_pure.append(time.time() - train_start_pure)
         epoch_time.append(time.time() - train_start)
+        epoch_time_pure.append(np.sum(img_time_pure))
         print ('Epoch [{}/{}], Loss: {:.4f}' 
                    .format(epoch+1, num_epochs, loss.item()))
     epoch_time_avg = np.mean(epoch_time)
     img_time_pure_avg = np.mean(img_time_pure)
-    epoch_time_pure_avg = img_time_pure_avg*batch_size
+    epoch_time_pure_avg = np.mean(epoch_time_pure)
     train_time = np.sum(epoch_time)
     train_time_pure = np.sum(img_time_pure)
     metrics = {
