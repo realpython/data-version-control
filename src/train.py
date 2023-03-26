@@ -20,7 +20,7 @@ def main(repo_path):
     data_path = repo_path / "data"
     data_dir_train = data_path / "hymenoptera_data/train"
     num_classes = 2
-    num_epochs = 20
+    num_epochs = 15
     batch_size = 64
     learning_rate = 0.001
 
@@ -42,18 +42,17 @@ def main(repo_path):
     total_step = len(train_dataset)
     epoch_time = []
     img_time_pure = []
-    model_conv = torchvision.models.resnet18(pretrained=True)
-    for param in model_conv.parameters():
-        param.requires_grad = False
-
-    # Parameters of newly constructed modules have requires_grad=True by default
-    num_ftrs = model_conv.fc.in_features
-    model_conv.fc = nn.Linear(num_ftrs, 2)
+    
+    model_ft = torchvision.models.resnet18(pretrained=True)
+    num_ftrs = model_ft.fc.in_features
+    # Here the size of each output sample is set to 2.
+    # Alternatively, it can be generalized to nn.Linear(num_ftrs, len(class_names)).
+    model_ft.fc = nn.Linear(num_ftrs, 2)
 
     # Here the size of each output sample is set to 2.
     # Alternatively, it can be generalized to nn.Linear(num_ftrs, len(class_names)).
     
-    model = model_conv.to(device)
+    model = model_ft.to(device)
     
     # Loss and optimizer
     criterion = nn.CrossEntropyLoss()
