@@ -59,9 +59,9 @@ def main(repo_path):
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate, momentum = 0.9)  
     for epoch in range(num_epochs):
+        img_time_pure = []
         train_start = time.time()
         for images, labels in train_loader:
-            img_time_pure = []  
             # Move tensors to the configured device
             images = images.to(device)
             labels = labels.to(device)
