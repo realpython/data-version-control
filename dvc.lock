@@ -8,24 +8,24 @@ stages:
       size: 27229047
       nfiles: 245
     - path: src/train.py
-      md5: f13047cfb0adca709f3dca1f90cf61e2
-      size: 3655
+      md5: a3acbd90f1b1c401f70dc0cb96d3b9e8
+      size: 3653
     params:
       params.yaml:
         base:
           random_seed: 42
         train:
-          device: cuda
+          device: cpu
           num_epochs: 20
-          batch_size: 64
+          batch_size: 8
           learning_rate: 0.001
     outs:
     - path: metrics.json
-      md5: 7ac175749d64c0ddf5f67701f942f72b
+      md5: 343b17daee99892bbbdf13feba31ac99
       size: 174
     - path: model/model.pkl
-      md5: 9711a232d6e9dde4c0c2c70ee62eda81
-      size: 44796604
+      md5: f563f95d4d5a0a40eef61a604a0b8b73
+      size: 44796238
   evaluate:
     cmd: python src/evaluate.py
     deps:
@@ -34,19 +34,19 @@ stages:
       size: 20156877
       nfiles: 153
     - path: model/model.pkl
-      md5: 9711a232d6e9dde4c0c2c70ee62eda81
-      size: 44796604
+      md5: f563f95d4d5a0a40eef61a604a0b8b73
+      size: 44796238
     - path: src/evaluate.py
-      md5: 81107e262eac59345e3175d062187cf8
-      size: 2367
+      md5: be2b21b5cec268c994e270e6bffd189c
+      size: 2365
     params:
       params.yaml:
         base:
           random_seed: 42
         evaluate:
-          device: cuda
-          batch_size: 64
+          device: cpu
+          batch_size: 8
     outs:
     - path: metrics_eval.json
-      md5: 05077cc319e3f8ff245fc9214c4b0be8
-      size: 124
+      md5: 0c7756fb76462678ee98afbe62cb7e81
+      size: 126

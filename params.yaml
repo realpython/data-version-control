@@ -2,11 +2,11 @@ base:
   random_seed: 42
 
 train:
-  device: cuda
+  device: cpu
   num_epochs: 20
-  batch_size: 64
+  batch_size: 8
   learning_rate: 0.001  
 
 evaluate:
-  device: cuda
-  batch_size: 64
+  device: cpu
+  batch_size: 8

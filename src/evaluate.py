@@ -15,10 +15,10 @@ from torchvision import transforms
 from torch.utils.data.sampler import SubsetRandomSampler
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-device = 'cuda'
+device = 'cpu'
 
 def main(repo_path):
-    batch_size = 64
+    batch_size = 8
     data_path = repo_path / "data"
     data_dir_test = data_path / "hymenoptera_data/val"
     model = load(repo_path / "model/model.pkl")

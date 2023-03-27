@@ -15,14 +15,14 @@ from torchvision import datasets
 from torch.utils.data.sampler import SubsetRandomSampler
 # Device configuration
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-device = 'cuda'
+device = 'cpu'
 
 def main(repo_path):
     data_path = repo_path / "data"
     data_dir_train = data_path / "hymenoptera_data/train"
     num_classes = 2
     num_epochs = 20
-    batch_size = 64
+    batch_size = 8
     learning_rate = 0.001
 
     
