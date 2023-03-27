@@ -1,5 +1,5 @@
 {
-   "accuracy": 0.9411764705882353,
-   "eval_time_avg": 1.674522082010905,
-   "eval_time_pure_avg": 1.6735246976216633
+   "accuracy": 0.934640522875817,
+   "eval_time_avg": 1.320187250773112,
+   "eval_time_pure_avg": 1.0161312421162922
 }

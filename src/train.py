@@ -15,7 +15,7 @@ from torchvision import datasets
 from torch.utils.data.sampler import SubsetRandomSampler
 # Device configuration
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-device = 'cpu'
+device = 'cuda'
 
 def main(repo_path):
     data_path = repo_path / "data"
