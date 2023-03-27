@@ -15,7 +15,7 @@ from torchvision import transforms
 from torch.utils.data.sampler import SubsetRandomSampler
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-device = 'cpu'
+device = 'cuda'
 
 def main(repo_path):
     batch_size = 8
