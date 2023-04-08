@@ -42,19 +42,48 @@ def main(repo_path):
     width = 224
     sample_input = torch.cuda.FloatTensor(batch_size, channels, height, width)
 
-    onnx_model_path = repo_path / "model"
+    onnx_model_path = repo_path / "model/model.onnx"
     torch.onnx.export(model,sample_input,onnx_model_path,opset_version=12,input_names=['input'],output_names=['output'])
     # Load the ONNX model
-    onnx_path = 'C:/Users/nasty/data-version-control/model/model.onnx'
-    model = onnx.load(onnx_path)
-    ort_session = ort.InferenceSession('model.onnx')
+   
+    model = onnx.load(onnx_model_path)
+    ort_session = ort.InferenceSession("model/model.onnx")
 # Check that the IR is well formed
     onnx.checker.check_model(model)
     outputs = ort_session.run(
     None,
     {'input': np.random.randn(batch_size, channels, height, width).astype(np.float32)}
 )
+    eval_time = []
+    eval_time_pure = []
+    with torch.no_grad():
+        correct = 0
+        total = 0
+        for images, labels in test_loader:
+            val_start = time.time()
+            reshaped_images = images.view(batch_size, channels, height, width)
 
+            # Convert the torch tensor to numpy array
+            input_images = reshaped_images.numpy()
+
+
+            val_start_pure = time.time()
+            outputs = ort_session.run(
+    None,
+    {'input': input_images.astype(np.float32)}
+)
+            predicted = outputs
+            eval_time_pure.append(time.time()-val_start_pure)
+            total += labels.size(0)
+            if (predicted == outputs):            correct += (predicted == labels).sum().item()
+            eval_time.append(time.time()-val_start)
+            del images, labels, outputs
+    accuracy = correct/total
+    eval_time_avg = np.mean(eval_time)
+    eval_time_pure_avg = np.mean(eval_time_pure)
+    metrics = {"accuracy": accuracy, "eval_time_avg": eval_time_avg, "eval_time_pure_avg": eval_time_pure_avg}
+    with open('metrics_eval.json', 'w') as f:
+        json.dump(metrics, f, indent=3)
 
 
 if __name__ == "__main__":
