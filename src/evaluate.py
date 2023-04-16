@@ -16,7 +16,7 @@ from torch.utils.data.sampler import SubsetRandomSampler
 import onnxruntime
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-device = 'cuda'
+device = 'cpu'
 
 def main(repo_path):
     batch_size = 8

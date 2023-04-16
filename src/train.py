@@ -5,7 +5,6 @@ import time
 import numpy as np
 import pandas as pd
 from skimage.io import imread_collection
-
 from skimage.transform import resize
 import numpy as np
 import torch
@@ -14,12 +13,9 @@ import torchvision
 import torchvision.transforms as transforms
 from torchvision import datasets
 from torch.utils.data.sampler import SubsetRandomSampler
-import onnxruntime
-from onnxruntime.training import ORTTrainer, optim, orttrainer_extensions, TrainStepInfo, LossScaler, optim_config, checkpoint, amp, amp_grad_scaler, orttrainer_utils, amp_utils
-import time
 # Device configuration
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-device = 'cuda'
+device = 'cpu'
 
 def main(repo_path):
     data_path = repo_path / "data"
@@ -58,16 +54,10 @@ def main(repo_path):
     # Alternatively, it can be generalized to nn.Linear(num_ftrs, len(class_names)).
     
     model = model_ft.to(device)
+    
     # Loss and optimizer
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate, momentum = 0.9)  
-    # Convert model to ONNX format
-    dummy_input = torch.randn(batch_size, 3, 224, 224, device=device)
-    onnx_path = repo_path / "model/model.onnx"
-    torch.onnx.export(model, dummy_input, onnx_path, verbose=False)
-    
-    # Train ONNX model with ORTTrainer
-    ort_model = ORTTrainer(onnx_path, model_desc=model_ft, loss_fn=criterion, optimizer=optimizer, device=device)
     for epoch in range(num_epochs):
         img_time_pure = []
         train_start = time.time()
@@ -77,7 +67,12 @@ def main(repo_path):
             labels = labels.to(device)
             train_start_pure = time.time()
             # Forward pass
-            ort_model.train_step(images, labels)
+            outputs = model(images)
+            loss = criterion(outputs, labels)
+            # Backward and optimize
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
             img_time_pure.append(time.time() - train_start_pure)
         epoch_time.append(time.time() - train_start)
         epoch_time_pure.append(np.sum(img_time_pure))
@@ -87,10 +82,6 @@ def main(repo_path):
     epoch_time_pure_avg = np.mean(epoch_time_pure)
     train_time = np.sum(epoch_time)
     train_time_pure = np.sum(epoch_time_pure)
-            
-    trained_model = ort_model.get_model()
-    dump(trained_model, repo_path / "model/model.pkl")
-
     metrics = {
         
             "epoch_time_avg": epoch_time_avg,
@@ -104,6 +95,8 @@ def main(repo_path):
     with open('metrics.json', 'w') as f:
         json.dump(metrics, f, indent=4)
     
+    trained_model = model
+    dump(trained_model, repo_path / "model/model.pkl")
      
 if __name__ == "__main__":
     repo_path = Path(__file__).parent.parent
