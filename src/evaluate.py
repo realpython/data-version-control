@@ -13,8 +13,7 @@ import torchvision
 from torchvision import datasets
 from torchvision import transforms
 from torch.utils.data.sampler import SubsetRandomSampler
-import onnx
-import onnxruntime as ort
+import onnxruntime
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 device = 'cuda'
@@ -24,7 +23,22 @@ def main(repo_path):
     data_path = repo_path / "data"
     data_dir_test = data_path / "hymenoptera_data/val"
     model = load(repo_path / "model/model.pkl")
-           #loading the dataset
+    model.eval()
+    # convert to onnx model
+    dummy_input = torch.randn(batch_size, 3, 224, 224, device=device)
+    input_names = ["input"]
+    output_names = ["output"]
+    dynamic_axes = {"input": {0: "batch_size"}, "output": {0: "batch_size"}}
+    onnx_model_path = repo_path / "model/model.onnx"
+    torch.onnx.export(model, dummy_input, onnx_model_path, input_names=input_names, output_names=output_names,
+                      dynamic_axes=dynamic_axes, opset_version=11)
+
+    # create onnxruntime session
+    sess_options = onnxruntime.SessionOptions()
+    sess_options.graph_optimization_level = onnxruntime.GraphOptimizationLevel.ORT_ENABLE_ALL
+    ort_session = onnxruntime.InferenceSession(onnx_model_path.as_posix(), sess_options=sess_options)
+
+    #loading the dataset
     transform = transforms.Compose([transforms.Resize(256),
                                 transforms.CenterCrop(224),
                                 transforms.ToTensor(),
@@ -36,24 +50,6 @@ def main(repo_path):
 
     #loading the data into dataloader
     test_loader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=True)
-    
-    channels = 3
-    height = 224
-    width = 224
-    sample_input = torch.cuda.FloatTensor(batch_size, channels, height, width)
-
-    onnx_model_path = repo_path / "model/model.onnx"
-    torch.onnx.export(model,sample_input,onnx_model_path,opset_version=12,input_names=['input'],output_names=['output'])
-    # Load the ONNX model
-   
-    model = onnx.load(onnx_model_path)
-    ort_session = ort.InferenceSession("model/model.onnx")
-# Check that the IR is well formed
-    onnx.checker.check_model(model)
-    outputs = ort_session.run(
-    None,
-    {'input': np.random.randn(batch_size, channels, height, width).astype(np.float32)}
-)
     eval_time = []
     eval_time_pure = []
     with torch.no_grad():
@@ -61,21 +57,17 @@ def main(repo_path):
         total = 0
         for images, labels in test_loader:
             val_start = time.time()
-            reshaped_images = images.view(batch_size, channels, height, width)
-
-            # Convert the torch tensor to numpy array
-            input_images = reshaped_images.numpy()
-
-
+            images = images.to(device)
+            labels = labels.to(device)
             val_start_pure = time.time()
-            outputs = ort_session.run(
-    None,
-    {'input': input_images.astype(np.float32)}
-)
-            predicted = outputs
+            # use onnxruntime to get predictions
+            ort_inputs = {"input": images.cpu().numpy()}
+            ort_outs = ort_session.run(None, ort_inputs)
+            outputs = torch.Tensor(ort_outs[0]).to(device)
+            _, predicted = torch.max(outputs.data, 1)
             eval_time_pure.append(time.time()-val_start_pure)
             total += labels.size(0)
-            if (predicted == outputs):            correct += (predicted == labels).sum().item()
+            correct += (predicted == labels).sum().item()
             eval_time.append(time.time()-val_start)
             del images, labels, outputs
     accuracy = correct/total
@@ -87,6 +79,6 @@ def main(repo_path):
 
 
 if __name__ == "__main__":
-    repo_path = Path(__file__).parent.parent
+    file = __file__
+    repo_path = Path(file).parent.parent
     main(repo_path)
-
