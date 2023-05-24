@@ -1,0 +1,6 @@
+[core]
+    analytics = false
+    remote = remote_storage
+    autostage = true
+['remote "remote_storage"']
+    url = C:\Users\Qilun\Desktop\Lvzhi\projects-dvc\data-dvc\projects\data-version-control-dvc_remote
