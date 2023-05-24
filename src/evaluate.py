@@ -13,6 +13,7 @@ def main(repo_path):
     model = load(repo_path / "model/model.joblib")
     predictions = model.predict(test_data)
     accuracy = accuracy_score(labels, predictions)
+    print(f"accuracy score: {accuracy}")
     metrics = {"accuracy": accuracy}
     accuracy_path = repo_path / "metrics/accuracy.json"
     accuracy_path.write_text(json.dumps(metrics))
