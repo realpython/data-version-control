@@ -1,0 +1,5 @@
+[core]
+    analytics = false
+    remote = temp
+['remote "temp"']
+    url = C:\Projects\DVC_remote\
