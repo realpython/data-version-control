@@ -2,4 +2,4 @@
     analytics = false
     remote = remote_storage
 ['remote "remote_storage"']
-    url = C:\dvcData
+    url = /home/ajkumar/hackathonDVC/dvcDataStore
